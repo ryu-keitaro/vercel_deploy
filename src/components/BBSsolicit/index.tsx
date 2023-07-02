@@ -1,8 +1,9 @@
 import styles from "./index.module.scss";
-import moment from "moment";
+import React from "react";
 import Props from "../types";
 import { articleData } from "./articleData";
-import Detai from '@/components/detail';
+import Detail from "../detail";
+
 const mongoose = require("mongoose");
 
 
@@ -40,7 +41,7 @@ const BBSsolicit: React.FC = () => {
                       <div className={styles.tagbox}>{bbs[4]}</div>
                     )}
                   </div>
-                  <Detai />
+                  <Detail />
                 </a>
               </div>
             </article>

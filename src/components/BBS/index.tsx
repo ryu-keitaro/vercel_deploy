@@ -1,10 +1,10 @@
 import styles from "./index.module.scss";
-import moment from "moment";
 import Props from "../types";
 import AppData from "./databox";
 import { articleData } from "./articleData";
-import Detai from '@/components/detail';
-import { Value } from "sass";
+
+import React from "react";
+
 const mongoose = require("mongoose");
 
 // mongoose.connect(
@@ -38,10 +38,12 @@ const BBS: React.FC = () => {
                         </div>
                       ))
                     ) : (
-                      <div className={styles.tagbox}>{bbs[4]}</div>
+                      <div className={styles.tagbox}>
+                        {bbs[4]}
+                      </div>
                     )}
+
                   </div>
-                  <Detai />
                 </a>
               </div>
             </article>

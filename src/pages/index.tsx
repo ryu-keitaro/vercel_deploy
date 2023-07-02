@@ -9,7 +9,7 @@ import db from '@/firebase';
 import { useEffect, useState } from 'react';
 import AppData from '@/components/BBS/databox';
 import App from 'next/app';
-
+import React from "react";
 
 export default function Home() {
  

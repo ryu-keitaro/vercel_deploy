@@ -1,9 +1,11 @@
 import styles from "./index.module.scss";
-import moment from "moment";
+
 import Props from "../types";
 import { articleData } from "./articleData";
-import Detai from '@/components/detail';
-import { Value } from "sass";
+
+import React from "react";
+
+
 const mongoose = require("mongoose");
 
 // mongoose.connect(
@@ -39,7 +41,7 @@ const BBSfight: React.FC = () => {
                       <div className={styles.tagbox}>{bbs[4]}</div>
                     )}
                   </div>
-                  <Detai />
+                  <etail />
                 </a>
               </div>
             </article>

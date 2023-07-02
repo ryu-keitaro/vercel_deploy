@@ -2,7 +2,6 @@ import styles from "./index.module.scss";
 import Modal from 'react-modal';
 import { useState } from 'react';
 import React from "react";
-import Select from 'react-select'
 import UploadForm from "../Firebase/returnup";
 
 
